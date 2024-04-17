@@ -3,8 +3,8 @@ import tensorflow as tf
 import numpy as np
 import cv2
 
-logo_path = 'C:\\Users\\pc\\OneDrive\\Desktop\\voyance\\voyance logo.png'
-model_path = 'C:\\Users\\pc\\OneDrive\\Desktop\\voyance\\model.h5'
+logo_path = 'voyance logo.png'
+model_path = 'model.h5'
 
 # Function to load and preprocess image
 def preprocess_image(image):
